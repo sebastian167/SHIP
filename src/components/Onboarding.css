@@ -1,0 +1,123 @@
+.onboarding-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.center-wrapper {
+    width: 100%;
+    max-width: 500px;
+}
+
+.main-card {
+    padding: 3rem 2rem;
+    border-radius: var(--border-radius-lg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-container {
+    background: rgba(29, 78, 216, 0.1);
+    padding: 1.5rem;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    border: 2px solid rgba(29, 78, 216, 0.3);
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.subtitle {
+    color: var(--color-text-muted);
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.input-group {
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.uppercase-input {
+    text-transform: uppercase;
+}
+
+.lowercase-input {
+    text-transform: lowercase;
+}
+
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}
+
+.mt-1 {
+    margin-top: 0.25rem;
+}
+
+.rules-box {
+    text-align: left;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1rem 1.5rem;
+    border-radius: var(--border-radius-sm);
+    border-left: 4px solid var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.rules-box h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: var(--color-primary-glow);
+}
+
+.rules-box ul {
+    list-style-type: none;
+}
+
+.rules-box li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+}
+
+.rules-box li::before {
+    content: '✈';
+    position: absolute;
+    left: 0;
+    color: var(--color-accent);
+    font-size: 0.8rem;
+}
+
+.btn-full {
+    width: 100%;
+    padding: 1.25rem;
+}
